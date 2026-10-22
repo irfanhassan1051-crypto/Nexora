@@ -1,0 +1,12 @@
+{
+    "provider": "gemini",
+    "model": "gemini-3.8-flash",
+    "ollama_url": "http://localhost:11434/v1",
+    "groq_api_key": "",
+    "openrouter_api_key": "",
+    "cerebras_api_key": "",
+    "mistral_api_key": "",
+    "gemini_api_key": "",
+    "temperature": 0.7,
+    "max_tokens": 4096
+}

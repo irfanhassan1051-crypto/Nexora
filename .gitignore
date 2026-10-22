@@ -1,0 +1,37 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+app_settings.json
+
+# User data
+chat_history.db
+chat_history.db-*
+attachments/
+
+# Python environments and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging output
+build/
+dist/
+dist_*/
+*.spec.bak
+*.zip
+
+# Streamlit local configuration
+.streamlit/secrets.toml
+
+# OS and editor files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/settings.json

@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Nexora Desktop (source)",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-u",
+				"desktop_app.py"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Run Nexora Web (Streamlit)",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/c",
+				"echo.| python -m streamlit run app.py --server.address 127.0.0.1 --server.port 8501"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Launch Nexora Desktop (build)",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/c",
+				"start \"\" \"dist\\Nexora\\Nexora.exe\""
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
